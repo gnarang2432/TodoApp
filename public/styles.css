@@ -1,0 +1,73 @@
+/*
+Each rule has a Selector and a Descriptor
+ */
+.btn span.glyphicon {
+    opacity: 0;
+}
+.btn.active span.glyphicon {
+    opacity: 1;
+}
+
+.btn-group{
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+
+#completeButton{
+    margin-right: 10px;
+}
+div.todoStatusACTIVE {
+    color : blue;
+}
+
+div.todoStatusCOMPLETE {
+    color : green;
+    text-decoration : line-through;
+}
+
+div.todoStatusDELETED {
+    color : red;
+    text-decoration : line-through;
+}
+
+.top-buffer {
+    margin-top : 50px;
+}
+
+#deleteButton{
+    position:absolute;
+    left:250px;
+}
+#hideComplete{
+    position:relative;
+    bottom:37px;
+    left:150px;
+}
+#hideDelete{
+    position:relative;
+    bottom:37px;
+    left:150px;
+
+}
+.horizontal{
+    width: 100%;
+    color:black;
+    height:1px;
+    background-color: black;
+}
+.todoHead{
+    background-color: yellow;
+    text-align: center;
+}
+.heading{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.welll{
+    border: solid;
+    border-radius: 20px;
+    background-color: white !important;
+}
+
+
+
